@@ -36,7 +36,6 @@ export const StyledNav = styled.nav`
         }
 
         .main-menu {
-            border: 1px solid green;
             position: static;
             justify-content: flex-start;
             

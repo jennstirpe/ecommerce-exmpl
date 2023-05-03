@@ -13,7 +13,9 @@ export default function Header() {
         </div>
 
         <div className="company-logo">
-            <Link className="nav-link" to="/">Best Buds</Link>
+            <Link className="nav-link" to="/">
+              <h1>Best Buds</h1>
+            </Link>
         </div>
         <Nav />
     </StyledHeader>
