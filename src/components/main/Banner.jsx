@@ -1,10 +1,11 @@
-import { StyledBanner } from "./styled/Banner.styled"
+import { StyledBanner } from "./styled/Banner.styled";
+import { Link } from "react-router-dom";
 
 export default function Banner() {
   return (
     <StyledBanner>
         <h2 className="banner-headline">Interested in adding plants to your indoor space but not sure where to start?</h2>
-        <button className="banner-link">Browse low maintenance plants</button>
+        <Link className="banner-link" to="/">Browse low maintenance plants</Link>
     </StyledBanner>
   )
 }
