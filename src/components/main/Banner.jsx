@@ -6,6 +6,7 @@ export default function Banner() {
     <StyledBanner>
         <h2 className="banner-headline">Interested in adding plants to your indoor space but not sure where to start?</h2>
         <Link className="banner-link" to="/">Browse low maintenance plants</Link>
+        <Link to="/Products">Shop All</Link>
     </StyledBanner>
   )
 }

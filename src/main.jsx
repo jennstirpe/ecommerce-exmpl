@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import LightRequirementsArticle from './pages/LightRequirementsArticle.jsx';
+import ProductsPage from './pages/ProductsPage.jsx';
 
 import {
   createBrowserRouter,
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/lightRequirements",
     element: <LightRequirementsArticle />,
+  },
+  {
+    path: "/Products",
+    element: <ProductsPage />,
   }
 ]);
 

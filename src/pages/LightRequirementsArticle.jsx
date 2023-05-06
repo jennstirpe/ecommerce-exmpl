@@ -1,4 +1,5 @@
 import Header from "../components/header/Header"
+import Footer from "../components/footer/Footer"
 import GlobalStyles from "../components/Global"
 import { StyledLightArticle } from "./styled/LightRequirementsArticle.styled"
 
@@ -66,14 +67,6 @@ export default function LightRequirementsArticle() {
                 </ul>
               </section>
 
-              {/* <section className="article-section">
-                <h3 className="article-section-header">Use the hand test to determine what kind of light your space receives:</h3>
-                <p>Take a piece of paper or any flat, plain surface and stand in the spot you'd like to test. Hold your hand about a foot away from the paper, between it and your light source.</p>
-                <p>If you can't see a shadow, or it's very faint, that spot is getting <span>low light</span>.</p>
-                <p>If you see a shadow but it's edges are fuzzy, that spot is receiving <span>medium light</span>.</p>
-                <p>If you see a shadow that is crisp with clear edges, that spot gets <span>bright/high light</span>.</p>
-              </section> */}
-
               <section className="article-section light-test">
                 <h3 className="article-section-header">Use the hand test to determine what kind of light your space receives:</h3>
                 
@@ -89,18 +82,11 @@ export default function LightRequirementsArticle() {
                   <li className="light-test-result">
                     <p className="result-desc">If you see a shadow that is crisp with clear edges, that spot gets <span>bright/high light</span>.</p>
                   </li>
-                </ul>
-                    
-
-                    
-
-                    
-
-                
-                
+                </ul> 
               </section>
-
           </StyledLightArticle>
+
+          <Footer />
       </div>
     </>
   )

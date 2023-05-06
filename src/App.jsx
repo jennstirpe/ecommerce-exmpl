@@ -1,3 +1,6 @@
+import { ThemeProvider } from 'styled-components';
+import { lightTheme } from './themes';
+
 import GlobalStyles from "./components/Global";
 import Header from "./components/header/Header";
 import Banner from "./components/main/Banner";
@@ -9,21 +12,22 @@ import Footer from "./components/footer/Footer";
 function App() {
 
   return (
-    <>
-      <GlobalStyles />
-      <Header />
+    <ThemeProvider theme={lightTheme}>
+      <>
+        <GlobalStyles />
+        <Header />
 
-      <main>
-        <Banner />
+        <main>
+          <Banner />
 
-        <Article />
+          <Article />
 
-        <Categories />
-      </main>
+          <Categories />
+        </main>
 
-      <Footer />
-        
-    </>
+        <Footer />
+      </>
+    </ThemeProvider>
   )
 }
 

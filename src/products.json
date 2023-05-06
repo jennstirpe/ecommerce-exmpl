@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "name": "Peace Lily",
+        "img": "./src/assets/products/peace-lily.jpg",
+        "credit": "https://unsplash.com/photos/ouqmMLghHr0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink"
+,        "light": "low",
+        "difficulty": "medium",
+        "toxic": ["cats"]
+    },
+    {
+        "id": 2,
+        "name": "Snake Plant",
+        "img": "./src/assets/products/snake-plant.jpg",
+        "credit": "https://unsplash.com/photos/vOHuRvK6UXE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink",
+        "light": "low",
+        "difficulty": "easy",
+        "toxic": ["dogs"]
+    },
+    {
+        "id": 3,
+        "name": "ZZ Plant",
+        "img": "./src/assets/products/zz-plant.jpg",
+        "credit": "https://unsplash.com/photos/1gwjE0c3PSQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink",
+        "light": "low",
+        "difficulty": "easy",
+        "toxic": ["dogs", "cats", "humans"]
+    },
+    {
+        "id": 4,
+        "name": "Anthurium",
+        "img": "./src/assets/products/anthurium.jpg",
+        "credit": "https://unsplash.com/photos/dAA2Q_eFb84?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink",
+        "light": "low",
+        "difficulty": "hard",
+        "toxic": ["dogs", "cats", "humans"]
+    },
+    {
+        "id": 5,
+        "name": "Polka Dot Plant",
+        "img": "./src/assets/products/polka-dot.jpg",
+        "credit": "https://unsplash.com/photos/0aKF5P33CXQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink",
+        "light": "low",
+        "difficulty": "easy",
+        "toxic": []
+    },
+    {
+        "id": 6,
+        "name": "African Violet",
+        "img": "./src/assets/products/african-violet.jpg",
+        "credit": "https://unsplash.com/photos/590CL9EbVRo?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink",
+        "light": "medium",
+        "difficulty": "medium",
+        "toxic": []
+    },
+    {
+        "id": 7,
+        "name": "Areca Palm",
+        "img": "./src/assets/products/areca-palm.jpg",
+        "credit": "https://unsplash.com/photos/zzS4r5iAoS0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink",
+        "light": "medium",
+        "difficulty": "easy",
+        "toxic": []
+    },
+    {
+        "id": 8,
+        "name": "Money Tree",
+        "img": "./src/assets/products/money-tree.jpg",
+        "credit": "https://unsplash.com/photos/xJh27OYI7zg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink",
+        "light": "medium",
+        "difficulty": "easy",
+        "toxic": []
+    },
+    {
+        "id": 9,
+        "name": "Schefflera",
+        "img": "./src/assets/products/schefflera.jpg",
+        "credit": "https://unsplash.com/photos/F98esQWF6uI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink",
+        "light": "medium",
+        "difficulty": "easy",
+        "toxic": ["dogs", "cats"]
+    },
+    {
+        "id": 10,
+        "name": "Chinese Evergreen",
+        "img": "./src/assets/products/chinese-evergreen.jpg",
+        "credit": "https://unsplash.com/photos/hsxsAbRZGws?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink",
+        "light": "medium",
+        "difficulty": "easy",
+        "toxic": ["dogs", "cats"]
+    },
+    {
+        "id": 11,
+        "name": "Aloe Vera",
+        "img": "./src/assets/products/aloe-vera.jpg",
+        "credit": "https://unsplash.com/photos/T0inbt7nRME?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink",
+        "light": "high",
+        "difficulty": "easy",
+        "toxic": ["dogs", "cats"]
+    },
+    {
+        "id": 12,
+        "name": "Jade Plant",
+        "img": "./src/assets/products/jade-plant.jpg",
+        "credit": "https://unsplash.com/photos/Q0w0LGkHokE?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink",
+        "light": "high",
+        "difficulty": "medium",
+        "toxic": ["cats"]
+    },
+    {
+        "id": 13,
+        "name": "Cordyline",
+        "img": "./src/assets/products/cordyline.jpg",
+        "credit": "https://unsplash.com/photos/EASjBRt6gi0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink",
+        "light": "high",
+        "difficulty": "easy",
+        "toxic": ["dogs", "cats"]
+    },
+    {
+        "id": 14,
+        "name": "Fiddle-Leaf Fig",
+        "img": "./src/assets/products/fiddle-leaf.jpg",
+        "credit": "https://unsplash.com/photos/EbLX7oRo4vI?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink",
+        "light": "high",
+        "difficulty": "hard",
+        "toxic": ["dogs", "cats"]
+    },
+    {
+        "id": 15,
+        "name": "String of Pearls",
+        "img": "./src/assets/products/string-of-pearls.jpg",
+        "credit": "https://unsplash.com/photos/1b7M8MN8xdk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink",
+        "light": "high",
+        "difficulty": "medium",
+        "toxic": ["dogs", "humans"]
+    }
+]

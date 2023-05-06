@@ -7,6 +7,13 @@ const GlobalStyles = createGlobalStyle`
         padding: 0;
     }
 
+    body {
+        color: ${({theme}) => theme.colors.textMain};
+    }
+
+    footer {
+    }
+
     button {
         &:hover {
             cursor: pointer;
