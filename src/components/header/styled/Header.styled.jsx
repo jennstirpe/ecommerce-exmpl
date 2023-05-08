@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.header`
-    
+    position: fixed;
+    top: 0;
+    background: ${({theme}) => theme.colors.bgMain};
+
     .updates-bar {
         width: 100vw;
         height: 3rem;
@@ -69,7 +72,6 @@ export const StyledHeader = styled.header`
     .company-logo {
         text-align: center;
         font-size: clamp(1.75rem, 1.4412rem + 1.4118vw, 2.5rem);
-        padding: 1rem 0;
 
         a {
             text-decoration: none;

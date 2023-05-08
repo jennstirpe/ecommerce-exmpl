@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyledBanner = styled.section`
+    margin-top: 12.25rem;
     background: lightgray;
     height: 30rem;
     display: flex;

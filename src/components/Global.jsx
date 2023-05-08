@@ -23,6 +23,31 @@ const GlobalStyles = createGlobalStyle`
             cursor: pointer;
         }
     }
+
+    .link {
+        background: none;
+        margin: .25rem;
+        border: none;
+        text-decoration: none;
+        color: ${({theme}) => theme.colors.accent};
+        transition: ${({theme}) => theme.transition};
+        font-size: 1rem;
+        text-transform: uppercase;
+        font-family: ${({theme}) => theme.fonts.body};
+
+        svg {
+            transition: ${({theme}) => theme.transition};
+        }
+
+        &:hover {
+            cursor: pointer;
+            color: ${({theme}) => theme.colors.textMain};
+
+            svg {
+                stroke ${({theme}) => theme.colors.textMain};
+            }
+        }
+    }
 `;
 
 export default GlobalStyles;
