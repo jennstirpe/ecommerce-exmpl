@@ -1,6 +1,6 @@
 export const lightTheme = {
     colors: {
-        bgMain: "#fff",
+        bgMain: "#ffffff",
         // bgMain: "#FCFCFC",
         textMain: "#042A2B",
         // accent: "#588157",

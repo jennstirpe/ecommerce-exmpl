@@ -24,28 +24,49 @@ const GlobalStyles = createGlobalStyle`
         }
     }
 
-    .link {
-        background: none;
-        margin: .25rem;
+    .link, .global-btn {
         border: none;
         text-decoration: none;
-        color: ${({theme}) => theme.colors.accent};
         transition: ${({theme}) => theme.transition};
         font-size: 1rem;
         text-transform: uppercase;
         font-family: ${({theme}) => theme.fonts.body};
 
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .link {
+        background: none;
+        margin: .25rem;
+        color: ${({theme}) => theme.colors.accent};
+        
         svg {
             transition: ${({theme}) => theme.transition};
         }
 
         &:hover {
-            cursor: pointer;
             color: ${({theme}) => theme.colors.textMain};
 
             svg {
                 stroke ${({theme}) => theme.colors.textMain};
             }
+        }
+    }
+
+    .global-btn {
+        background: ${({theme}) => theme.colors.accent};
+        color: ${({theme}) => theme.colors.textMain};
+        padding: .75rem;
+        border-radius: 1.5rem;
+        margin: .5rem;
+        border: 2px solid ${({theme}) => theme.colors.accent};
+        box-shadow: 0 0 1rem #00000025;
+
+        &:hover {
+            background: ${({theme}) => theme.colors.textMain};
+            color: ${({theme}) => theme.colors.accent};
         }
     }
 `;
