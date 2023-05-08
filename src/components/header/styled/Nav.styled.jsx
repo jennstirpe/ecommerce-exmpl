@@ -23,6 +23,26 @@ export const StyledNav = styled.nav`
         top: 2rem;
         width: 100%;
         justify-content: space-evenly;
+
+        .shop-menu {
+            position: absolute;
+            top: 1.75rem;
+            list-style: none;
+            padding: 1rem;
+            text-align: center;
+            background: ${({theme}) => theme.colors.bgMain};
+
+            .shop-menu-item {
+                margin: .35rem 0;
+                
+                &:last-of-type {
+                    border-top: 1px solid black;
+                    margin-top: 1rem;
+                    padding-top: .25rem;
+                }
+            }
+        }
+        
     }
 
     .menu-closed {
@@ -41,6 +61,11 @@ export const StyledNav = styled.nav`
             
             a, button {
                 margin-right: 3rem;
+            }
+
+            .shop-menu {
+                left: 5.5rem;
+
             }
         }
 

@@ -10,5 +10,6 @@ export const lightTheme = {
         headers: "'Playfair Display', serif",
         body: "'Raleway', sans-serif",
         accent: "'Dancing Script', cursive"
-    }
+    },
+    transition: "all 200ms linear",
 }

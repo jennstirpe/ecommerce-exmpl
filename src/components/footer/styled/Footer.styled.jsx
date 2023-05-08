@@ -5,9 +5,10 @@ export const StyledFooter = styled.footer`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 90rem;
+    /* max-width: 90rem; */
     margin: 0 auto;
     padding: 1.5rem 0;
+    background: ${({theme}) => theme.colors.accent};
     
     section {
         width: 100%;
@@ -22,21 +23,34 @@ export const StyledFooter = styled.footer`
     .company-details {
         .company-title {
             margin-bottom: .5rem;
+            font-size: 2.25rem;
+            text-transform: uppercase;
         }
 
         .company-mission {
             margin-bottom: .5rem;
             line-height: 1.25rem;
             width: 80%;
-            font-size: .95rem;
+            font-size: .75rem;
             text-align: center;
+            
         }
 
-        .company-links {
+        .company-socials {
             list-style: none;
             display: flex;
             justify-content: space-between;
             width: 8rem;
+
+            li {
+                transition: ${({theme}) => theme.transition};
+
+                &:hover {
+                    cursor: pointer;
+                    color: #ffffff75;
+                }
+            
+            }
         }
     }
 
@@ -47,6 +61,13 @@ export const StyledFooter = styled.footer`
 
             .actions-link {
                 margin: .5rem 0;
+                font-size: .9rem;
+                transition: ${({theme}) => theme.transition};
+
+                &:hover {
+                    cursor: pointer;
+                    color: #ffffff75;
+                }
             }
         }
     }
@@ -60,12 +81,43 @@ export const StyledFooter = styled.footer`
 
             .email-label {
                 text-align: center;
-                margin-bottom: .5rem;
+                margin-bottom: .75rem;
+                font-size: .9rem;
+            }
+
+            #email-input, .email-submit {
+                height: 2.25rem;
+                padding: .5rem;
+                border: none;
+            }
+
+            #email-input {
+                border-top-left-radius: .25rem;
+                border-bottom-left-radius: .25rem;
+
+                &::placeholder {
+                    font-family: ${({theme}) => theme.fonts.body};
+                    letter-spacing: 1px;
+                    font-size: .75rem;
+                }
+            }
+
+            .email-submit {
+                background: ${({theme}) => theme.colors.textMain};
+                color: #fff;
+                transition: ${({theme}) => theme.transition};
+                border-top-right-radius: .25rem;
+                border-bottom-right-radius: .25rem;
+
+                &:hover {
+                    background: #ffffff75;
+                    color: ${({theme}) => theme.colors.textMain};
+                }
             }
         }
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 900px) {
         flex-direction: row;
     }
 `;

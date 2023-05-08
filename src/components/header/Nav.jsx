@@ -30,11 +30,11 @@ export default function Nav() {
             <button onClick={() => setSubMenuActive(!subMenuActive)}>Shop</button>
             {
                 subMenuActive ? (
-                <ul className="Shop Categories">
-                    <li>Low Light</li>
-                    <li>Medium Light</li>
-                    <li>High Light</li>
-                    <li>Shop All</li>
+                <ul className="shop-menu">
+                    <li className="shop-menu-item">Low Light</li>
+                    <li className="shop-menu-item">Medium Light</li>
+                    <li className="shop-menu-item">High Light</li>
+                    <li className="shop-menu-item">Shop All</li>
                 </ul>
                 ) : null
             }
