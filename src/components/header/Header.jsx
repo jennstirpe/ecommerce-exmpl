@@ -7,8 +7,8 @@ export default function Header() {
     <StyledHeader>
         <div className="updates-bar">
             <ul className="updates">
-            <li className="update first">First update</li>
-            <li className="update second">Second update</li>
+            <li className="update first">Free U.S. Shipping Over $65 and International Over $125</li>
+            <li className="update second">Order Processing Time is currently 3-6 Business Days</li>
             </ul>
         </div>
 

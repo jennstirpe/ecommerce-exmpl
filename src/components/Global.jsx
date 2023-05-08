@@ -9,7 +9,7 @@ const GlobalStyles = createGlobalStyle`
 
     body {
         color: ${({theme}) => theme.colors.textMain};
-        background: ${({theme}) => theme.colors.bgMain};
+        background: ${({theme}) => theme.colors.bgMain}75;
         letter-spacing: 1px;
         font-family: ${({theme}) => theme.fonts.body};
 
