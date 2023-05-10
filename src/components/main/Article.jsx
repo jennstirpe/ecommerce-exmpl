@@ -9,8 +9,12 @@ export default function Article() {
   return (
 
     <StyledArticle className="article">
+      <div className="container">
         <h2 className="article-title">The main thing to take into consideration when you select a new plant is their light requirements.</h2>
-        <Link to="/lightRequirements" onClick={scrollToTop}> Identify the light your space receives</Link>
+        <p className="article-desc">Not sure what kind of light your space offers?</p>
+        <Link className="global-btn article-link" to="/lightRequirements" onClick={scrollToTop}>Learn More</Link>
+      </div>
+        
     </StyledArticle>
   )
 }

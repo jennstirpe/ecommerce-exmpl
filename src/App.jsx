@@ -19,9 +19,7 @@ function App() {
 
         <main>
           <Banner />
-
           <Article />
-
           <Categories />
         </main>
 

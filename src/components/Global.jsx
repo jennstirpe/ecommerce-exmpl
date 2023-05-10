@@ -56,19 +56,19 @@ const GlobalStyles = createGlobalStyle`
     }
 
     .global-btn {
+        padding: 1rem;
+        border-radius: 1.75rem;
+        margin: .5rem;
+        font-size: clamp(0.75rem, 0.6471rem + 0.4706vw, 1rem);
         background: ${({theme}) => theme.colors.accent};
         color: ${({theme}) => theme.colors.textMain};
-        padding: .75rem;
-        border-radius: 1.5rem;
-        margin: .5rem;
-        border: 2px solid ${({theme}) => theme.colors.accent};
-        box-shadow: 0 0 1rem #00000025;
 
         &:hover {
-            background: ${({theme}) => theme.colors.textMain};
-            color: ${({theme}) => theme.colors.accent};
+            background: ${({theme}) => theme.colors.textMain}99;
+            color: white;
         }
     }
+
 `;
 
 export default GlobalStyles;

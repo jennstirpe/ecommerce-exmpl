@@ -5,7 +5,7 @@ export const StyledHeader = styled.header`
     z-index: 10;
     top: 0;
     background: ${({theme}) => theme.colors.bgMain};
-    box-shadow: 0 0 .5rem #00000030;
+    box-shadow: 0 0 1rem #00000010;
 
     .updates-bar {
         width: 100vw;
@@ -74,8 +74,7 @@ export const StyledHeader = styled.header`
 
     .company-logo {
         text-align: center;
-        /* font-size: clamp(1.75rem, 1.4412rem + 1.4118vw, 2.5rem); */
-        font-size: 2.5rem;
+        font-size: clamp(1.75rem, 1.4412rem + 1.4118vw, 2.5rem);
 
         a {
             text-decoration: none;

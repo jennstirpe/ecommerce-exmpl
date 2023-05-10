@@ -6,8 +6,10 @@ export default function Banner() {
     <StyledBanner>
         <div className=" banner-content">
           <h2 className="banner-headline">Interested in adding plants to your indoor space but not sure where to start?</h2>
-          <Link className="banner-link global-btn" to="/">Browse low maintenance plants</Link>
-          <Link className="banner-link global-btn" to="/Products">Shop All</Link>
+          <div className="banner-links">
+            <Link className="banner-link global-btn" to="/">Browse low maintenance plants</Link>
+            <Link className="banner-link global-btn" to="/Products">Shop All</Link>
+          </div>
         </div>
         <div className="banner-img" aria-hidden="true"></div>
         

@@ -5,10 +5,9 @@ export const StyledFooter = styled.footer`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* max-width: 90rem; */
     margin: 0 auto;
     padding: 1.5rem 0;
-    background: ${({theme}) => theme.colors.accent};
+    background: ${({theme}) => theme.colors.accent}99;
     
     section {
         width: 100%;

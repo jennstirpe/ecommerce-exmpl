@@ -19,8 +19,17 @@ export const StyledBanner = styled.section`
             padding: 1rem;
             text-align: center;
             font-size: clamp(1.75rem, 1.2353rem + 2.3529vw, 3rem);
-            background: ${({theme}) => theme.colors.bgMain}95;
-            margin-bottom: 3rem;
+            background: ${({theme}) => theme.colors.textMain}50;
+            margin: 3rem 5%;
+            border: 3px solid white;
+            color: white;
+        }
+
+        .banner-links {
+            .banner-link {
+                display: block;
+                text-align: center;
+            }
         }
     }
     
@@ -37,12 +46,25 @@ export const StyledBanner = styled.section`
     }
 
 
-    @media (min-width: 768px) {
+    @media (min-width: 900px) {
         height: 40rem;
 
         .banner-content {
+            display: flex;
+            flex-direction: row;
+
             .banner-headline {
                 padding: 2rem 10%;
+                width: 50%;
+            }
+
+            .banner-links {
+                width: 50%;
+                padding-right: 2rem;
+
+                .banner-link {
+                    margin: 2rem 0;
+                }
             }
         }
     }
