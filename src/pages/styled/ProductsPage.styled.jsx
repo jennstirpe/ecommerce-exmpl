@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyledProducts =  styled.main`
+    margin-top: 14.8rem;
 
     .filters {
         margin: 0 auto;
@@ -24,6 +25,11 @@ export const StyledProducts =  styled.main`
             justify-content: center;
             flex-wrap: wrap;
             gap: 2rem;
+
+            .product-link:link {
+                text-decoration: none;
+            }
+
         }
     }
 `;

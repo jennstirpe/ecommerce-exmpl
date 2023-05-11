@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
 
 import products from "../products.json"
 
@@ -45,7 +46,7 @@ export default function ProductsPage() {
                     {
                         allProducts ? (
                             allProducts.map(product => {
-                                return <li key={product.id}><ProductThumbnail product={product} /></li>
+                                return <li key={product.id}><Link className="product-link" to="/"><ProductThumbnail product={product} /></Link></li>
                             })
                         ) : (
                             <p>SPINNER</p>
