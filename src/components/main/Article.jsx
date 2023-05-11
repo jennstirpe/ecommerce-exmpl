@@ -10,7 +10,7 @@ export default function Article() {
 
     <StyledArticle className="article">
       <div className="container">
-        <h2 className="article-title">The main thing to take into consideration when you select a new plant is their light requirements.</h2>
+        <h2 className="article-title">The first thing to take into consideration when looking for new plants is their light requirements.</h2>
         <p className="article-desc">Not sure what kind of light your space offers?</p>
         <Link className="global-btn article-link" to="/lightRequirements" onClick={scrollToTop}>Learn More</Link>
       </div>

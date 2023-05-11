@@ -7,6 +7,7 @@ export const StyledArticle = styled.section`
     justify-content: center;
     align-items: center;
     background: ${({theme}) => theme.colors.accent}25;
+    margin-bottom: 4rem;
 
     .container {
         max-width: 60rem;
